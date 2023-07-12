@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("../assets/fonts/Calibri.eot");
+  src: url("../assets/fonts/Calibri.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Calibri.woff2") format("woff2"), url("../assets/fonts/Calibri.woff") format("woff"), url("../assets/fonts/Calibri.ttf") format("truetype"), url("../assets/fonts/Calibri.svg#Calibri") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Calibri-B";
+  src: url("../assets/fonts/Calibri-Bold.eot");
+  src: url("../assets/fonts/Calibri-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Calibri-Bold.woff2") format("woff2"), url("../assets/fonts/Calibri-Bold.woff") format("woff"), url("../assets/fonts/Calibri-Bold.ttf") format("truetype"), url("../assets/fonts/Calibri-Bold.svg#Calibri-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rubik";
+}
+
+.wrap {
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.stars {
+  background-image: url(../assets/img/stars.png);
+  background-position: center;
+  background-position-y: top;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+nav.d-flex {
+  width: 100%;
+  justify-content: space-between;
+}
+nav .nav-menu {
+  justify-content: space-between;
+  max-width: 768px;
+  flex-grow: 2;
+}
+nav .nav-item {
+  font-size: 18px;
+  font-family: "Calibri";
+  line-height: 29px;
+  color: #616161;
+}
+nav .nav-item.phone {
+  font-size: 18px;
+  font-family: "Calibri-B";
+  line-height: 29px;
+  color: #141419;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-underline-offset: -10px;
+  text-decoration-thickness: 11px;
+  text-decoration-color: #fb973b;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+.h1-title {
+  width: 671px;
+  font-size: 60px;
+  font-family: "Calibri-B";
+  line-height: 72px;
+  color: #141419;
+}
+
+.orange {
+  color: #fb973b;
+  font-family: "Calibri-B";
+}
+
+.text-block {
+  font-size: 24px;
+  font-family: "Calibri";
+  line-height: 36px;
+  color: #616161;
+  width: 342px;
+}
+
+.cow-bg {
+  padding-top: 121px;
+  padding-bottom: 222px;
+  background-image: url(../assets/img/cow.png);
+  background-origin: border-box;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+main {
+  padding-right: 57px;
+}
+
+.input-phone {
+  font-size: 18px;
+  font-family: "S FU IDisplay";
+  line-height: 31px;
+  color: #141419;
+  max-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  outline: none;
+  border: 1px solid #e1e1e1;
+  max-width: 196px;
+  padding: 21px;
+}
+.input-phone.submit {
+  background-color: #fb973b;
+  color: #fff;
+  padding: 21px 57px;
+  border: 1px solid #fb973b;
+  cursor: pointer;
+}
+
+.about-us-section .text-block {
+  width: 510px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-us-section .about-us {
+  justify-content: center;
+  gap: 20px;
+  padding-top: 48px;
+}
+.about-us-section .about-us-text {
+  gap: 17px;
+}
+.about-us-section .about-us-text p {
+  font-size: 18px;
+  font-family: "Calibri";
+  line-height: 25px;
+  color: #141419;
+  text-align: center;
+  max-width: 392px;
+}
+.about-us-section .about-us-text p:last-child {
+  max-width: 387px;
+}
+
+.h2-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Calibri-B";
+  line-height: 72px;
+  color: #141419;
+}/*# sourceMappingURL=index.css.map */

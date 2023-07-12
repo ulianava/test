@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik';
+}
+.wrap{
+    max-width: calc(1920px - 608px);
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.stars{
+    background-image: url(../assets/img/stars.png) ;
+    background-position: center;
+    background-position-y: top;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    max-width: 150px;
+}
+nav{
+    &.d-flex{
+        width: 100%;
+        justify-content: space-between;
+        // flex-grow: 1;
+    }
+    .nav-menu{
+        justify-content: space-between;
+        max-width:768px;
+        flex-grow: 2;
+      
+    }
+    .nav-item{
+        @include font(18px, 'Calibri', 29px, $grey-color);
+        &.phone{
+            @include font(18px, 'Calibri-B', 29px, $black-color);
+
+        }
+
+    }
+}
+.text-underline{
+    text-decoration: underline;
+    text-underline-offset: -10px;
+    text-decoration-thickness: 11px;
+    text-decoration-color: $orange-color;
+    text-decoration-skip-ink: none;
+}
+
+.h1-title{
+    width: 671px;
+    @include font(60px, 'Calibri-B', 72px, $black-color);
+}
+.orange{
+    color:  $orange-color;
+    font-family: 'Calibri-B';
+}
+.text-block{
+    @include font(24px, 'Calibri', 36px, $grey-color);
+    width: 342px;
+}
+.cow-bg{
+    padding-top: 121px;
+    padding-bottom: 222px;
+    background-image: url(../assets/img/cow.png);
+    background-origin: border-box;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+main{
+    padding-right: 57px;
+}
+.input-phone{
+    @include font(18px, "S FU IDisplay", 31px, $black-color);
+    max-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    outline: none;
+    border: 1px solid #e1e1e1;  
+    max-width: 196px;
+    padding: 21px;
+    &.submit{
+        background-color: $orange-color;
+        color: #fff;
+        padding: 21px 57px;
+        border: 1px solid $orange-color;  
+        cursor: pointer;
+        
+    }
+}
+.about-us-section{
+    & .text-block{
+        width: 510px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-us{
+        justify-content: center;
+        gap: 20px;
+        padding-top: 48px;
+    } 
+    & .about-us-text{
+        gap: 17px;
+        & p{
+            @include font(18px, 'Calibri', 25px, $black-color);
+            text-align: center;
+            max-width: 392px;
+            &:last-child{
+                max-width: 387px;
+            }
+        }
+    }
+   
+
+}
+.h2-title{
+    margin: 0 auto;
+    text-align: center;
+    @include font(60px, 'Calibri-B', 72px, $black-color);
+
+}

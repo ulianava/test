@@ -1,0 +1,11 @@
+@mixin font ($font-size, $font-family, $lh, $font-color){
+   font-size: $font-size;
+   font-family: $font-family;
+   line-height: $lh;
+   color: $font-color;
+}
+$black-color: #141419;
+$grey-color: #616161;
+$orange-color: #fb973b;
+$nav-hover-color: #E0A26D;
+$white-color: #ffffff;
